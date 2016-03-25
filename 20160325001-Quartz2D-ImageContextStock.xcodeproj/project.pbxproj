@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58C215C1CA4D8EE00858C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C215B1CA4D8EE00858C18 /* main.m */; };
+		D58C215F1CA4D8EE00858C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C215E1CA4D8EE00858C18 /* AppDelegate.m */; };
+		D58C21621CA4D8EE00858C18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C21611CA4D8EE00858C18 /* ViewController.m */; };
+		D58C21651CA4D8EE00858C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C21631CA4D8EE00858C18 /* Main.storyboard */; };
+		D58C21671CA4D8EE00858C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58C21661CA4D8EE00858C18 /* Assets.xcassets */; };
+		D58C216A1CA4D8EE00858C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C21681CA4D8EE00858C18 /* LaunchScreen.storyboard */; };
+		D58C21751CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C21741CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m */; };
+		D58C21801CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C217F1CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58C21711CA4D8EE00858C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58C214F1CA4D8EE00858C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58C21561CA4D8EE00858C18;
+			remoteInfo = "20160325001-Quartz2D-ImageContextStock";
+		};
+		D58C217C1CA4D8EE00858C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58C214F1CA4D8EE00858C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58C21561CA4D8EE00858C18;
+			remoteInfo = "20160325001-Quartz2D-ImageContextStock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D58C21571CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160325001-Quartz2D-ImageContextStock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C215B1CA4D8EE00858C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D58C215D1CA4D8EE00858C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D58C215E1CA4D8EE00858C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D58C21601CA4D8EE00858C18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D58C21611CA4D8EE00858C18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D58C21641CA4D8EE00858C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58C21661CA4D8EE00858C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58C21691CA4D8EE00858C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58C216B1CA4D8EE00858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C21701CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160325001-Quartz2D-ImageContextStockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C21741CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160325001_Quartz2D_ImageContextStockTests.m; sourceTree = "<group>"; };
+		D58C21761CA4D8EE00858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C217B1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160325001-Quartz2D-ImageContextStockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C217F1CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160325001_Quartz2D_ImageContextStockUITests.m; sourceTree = "<group>"; };
+		D58C21811CA4D8EE00858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58C21541CA4D8EE00858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C216D1CA4D8EE00858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C21781CA4D8EE00858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58C214E1CA4D8EE00858C18 = {
+			isa = PBXGroup;
+			children = (
+				D58C21591CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */,
+				D58C21731CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests */,
+				D58C217E1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests */,
+				D58C21581CA4D8EE00858C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58C21581CA4D8EE00858C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58C21571CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock.app */,
+				D58C21701CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests.xctest */,
+				D58C217B1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58C21591CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */ = {
+			isa = PBXGroup;
+			children = (
+				D58C215D1CA4D8EE00858C18 /* AppDelegate.h */,
+				D58C215E1CA4D8EE00858C18 /* AppDelegate.m */,
+				D58C21601CA4D8EE00858C18 /* ViewController.h */,
+				D58C21611CA4D8EE00858C18 /* ViewController.m */,
+				D58C21631CA4D8EE00858C18 /* Main.storyboard */,
+				D58C21661CA4D8EE00858C18 /* Assets.xcassets */,
+				D58C21681CA4D8EE00858C18 /* LaunchScreen.storyboard */,
+				D58C216B1CA4D8EE00858C18 /* Info.plist */,
+				D58C215A1CA4D8EE00858C18 /* Supporting Files */,
+			);
+			path = "20160325001-Quartz2D-ImageContextStock";
+			sourceTree = "<group>";
+		};
+		D58C215A1CA4D8EE00858C18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58C215B1CA4D8EE00858C18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D58C21731CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D58C21741CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m */,
+				D58C21761CA4D8EE00858C18 /* Info.plist */,
+			);
+			path = "20160325001-Quartz2D-ImageContextStockTests";
+			sourceTree = "<group>";
+		};
+		D58C217E1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D58C217F1CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m */,
+				D58C21811CA4D8EE00858C18 /* Info.plist */,
+			);
+			path = "20160325001-Quartz2D-ImageContextStockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58C21561CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C21841CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStock" */;
+			buildPhases = (
+				D58C21531CA4D8EE00858C18 /* Sources */,
+				D58C21541CA4D8EE00858C18 /* Frameworks */,
+				D58C21551CA4D8EE00858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160325001-Quartz2D-ImageContextStock";
+			productName = "20160325001-Quartz2D-ImageContextStock";
+			productReference = D58C21571CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58C216F1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C21871CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStockTests" */;
+			buildPhases = (
+				D58C216C1CA4D8EE00858C18 /* Sources */,
+				D58C216D1CA4D8EE00858C18 /* Frameworks */,
+				D58C216E1CA4D8EE00858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58C21721CA4D8EE00858C18 /* PBXTargetDependency */,
+			);
+			name = "20160325001-Quartz2D-ImageContextStockTests";
+			productName = "20160325001-Quartz2D-ImageContextStockTests";
+			productReference = D58C21701CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D58C217A1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C218A1CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStockUITests" */;
+			buildPhases = (
+				D58C21771CA4D8EE00858C18 /* Sources */,
+				D58C21781CA4D8EE00858C18 /* Frameworks */,
+				D58C21791CA4D8EE00858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58C217D1CA4D8EE00858C18 /* PBXTargetDependency */,
+			);
+			name = "20160325001-Quartz2D-ImageContextStockUITests";
+			productName = "20160325001-Quartz2D-ImageContextStockUITests";
+			productReference = D58C217B1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D58C214F1CA4D8EE00858C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D58C21561CA4D8EE00858C18 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D58C216F1CA4D8EE00858C18 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58C21561CA4D8EE00858C18;
+					};
+					D58C217A1CA4D8EE00858C18 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58C21561CA4D8EE00858C18;
+					};
+				};
+			};
+			buildConfigurationList = D58C21521CA4D8EE00858C18 /* Build configuration list for PBXProject "20160325001-Quartz2D-ImageContextStock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58C214E1CA4D8EE00858C18;
+			productRefGroup = D58C21581CA4D8EE00858C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58C21561CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */,
+				D58C216F1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockTests */,
+				D58C217A1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58C21551CA4D8EE00858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C216A1CA4D8EE00858C18 /* LaunchScreen.storyboard in Resources */,
+				D58C21671CA4D8EE00858C18 /* Assets.xcassets in Resources */,
+				D58C21651CA4D8EE00858C18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C216E1CA4D8EE00858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C21791CA4D8EE00858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58C21531CA4D8EE00858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C21621CA4D8EE00858C18 /* ViewController.m in Sources */,
+				D58C215F1CA4D8EE00858C18 /* AppDelegate.m in Sources */,
+				D58C215C1CA4D8EE00858C18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C216C1CA4D8EE00858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C21751CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C21771CA4D8EE00858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C21801CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58C21721CA4D8EE00858C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58C21561CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */;
+			targetProxy = D58C21711CA4D8EE00858C18 /* PBXContainerItemProxy */;
+		};
+		D58C217D1CA4D8EE00858C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58C21561CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStock */;
+			targetProxy = D58C217C1CA4D8EE00858C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D58C21631CA4D8EE00858C18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58C21641CA4D8EE00858C18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58C21681CA4D8EE00858C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58C21691CA4D8EE00858C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58C21821CA4D8EE00858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D58C21831CA4D8EE00858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58C21851CA4D8EE00858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D58C21861CA4D8EE00858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D58C21881CA4D8EE00858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160325001-Quartz2D-ImageContextStock.app/20160325001-Quartz2D-ImageContextStock";
+			};
+			name = Debug;
+		};
+		D58C21891CA4D8EE00858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160325001-Quartz2D-ImageContextStock.app/20160325001-Quartz2D-ImageContextStock";
+			};
+			name = Release;
+		};
+		D58C218B1CA4D8EE00858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160325001-Quartz2D-ImageContextStock";
+			};
+			name = Debug;
+		};
+		D58C218C1CA4D8EE00858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160325001-Quartz2D-ImageContextStockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160325001-Quartz2D-ImageContextStockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160325001-Quartz2D-ImageContextStock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58C21521CA4D8EE00858C18 /* Build configuration list for PBXProject "20160325001-Quartz2D-ImageContextStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21821CA4D8EE00858C18 /* Debug */,
+				D58C21831CA4D8EE00858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58C21841CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21851CA4D8EE00858C18 /* Debug */,
+				D58C21861CA4D8EE00858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D58C21871CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21881CA4D8EE00858C18 /* Debug */,
+				D58C21891CA4D8EE00858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D58C218A1CA4D8EE00858C18 /* Build configuration list for PBXNativeTarget "20160325001-Quartz2D-ImageContextStockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C218B1CA4D8EE00858C18 /* Debug */,
+				D58C218C1CA4D8EE00858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D58C214F1CA4D8EE00858C18 /* Project object */;
+}

@@ -15,6 +15,7 @@
 		D58C216A1CA4D8EE00858C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C21681CA4D8EE00858C18 /* LaunchScreen.storyboard */; };
 		D58C21751CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C21741CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockTests.m */; };
 		D58C21801CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C217F1CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m */; };
+		D58C218F1CA4DA2900858C18 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C218E1CA4DA2900858C18 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D58C217B1CA4D8EE00858C18 /* 20160325001-Quartz2D-ImageContextStockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160325001-Quartz2D-ImageContextStockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58C217F1CA4D8EE00858C18 /* _0160325001_Quartz2D_ImageContextStockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160325001_Quartz2D_ImageContextStockUITests.m; sourceTree = "<group>"; };
 		D58C21811CA4D8EE00858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C218D1CA4DA2900858C18 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		D58C218E1CA4DA2900858C18 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D58C215E1CA4D8EE00858C18 /* AppDelegate.m */,
 				D58C21601CA4D8EE00858C18 /* ViewController.h */,
 				D58C21611CA4D8EE00858C18 /* ViewController.m */,
+				D58C218D1CA4DA2900858C18 /* DrawView.h */,
+				D58C218E1CA4DA2900858C18 /* DrawView.m */,
 				D58C21631CA4D8EE00858C18 /* Main.storyboard */,
 				D58C21661CA4D8EE00858C18 /* Assets.xcassets */,
 				D58C21681CA4D8EE00858C18 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				D58C21621CA4D8EE00858C18 /* ViewController.m in Sources */,
 				D58C215F1CA4D8EE00858C18 /* AppDelegate.m in Sources */,
+				D58C218F1CA4DA2900858C18 /* DrawView.m in Sources */,
 				D58C215C1CA4D8EE00858C18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
